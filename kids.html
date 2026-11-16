@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بچوں کے لیے اسلامی معلومات — گلوبل قرآن اکیڈمی</title>
+<meta name="description" content="بچوں کے لیے آسان اردو اسباق: اللہ، کلمات، سیرتِ نبی ﷺ، قرآن، نماز، اذان، صفائی، اخلاق اور اسلامی مہینے — ہر سبق کے ساتھ چھوٹا ٹیسٹ۔">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#06231a; --bg2:#0a2f23; --card:#0d3a2a; --gold:#c9a227; --gold2:#e8c95a;
+    --txt:#f3efe4; --soft:#cfd8cf; --line:rgba(201,162,39,.35);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:'Noto Naskh Arabic',serif;line-height:2;font-size:18px}
+  .wrap{max-width:860px;margin:0 auto;padding:24px 18px 60px}
+  header.top{text-align:center;padding:34px 10px 8px}
+  header.top .bismillah{font-family:'Amiri',serif;font-size:30px;color:var(--gold2)}
+  header.top h1{font-size:32px;font-weight:700;margin-top:10px}
+  header.top p{color:var(--soft);font-size:17px}
+  .backlink{display:inline-block;margin-top:14px;color:var(--gold2);text-decoration:none;border:1px solid var(--line);padding:4px 18px;border-radius:999px;font-size:16px}
+  .backlink:hover{background:rgba(201,162,39,.12)}
+  .day{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 24px;margin-top:28px}
+  .day h2{font-size:22px;color:var(--gold2);border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:14px}
+  .arabic{font-family:'Amiri',serif;font-size:24px;line-height:2.1;color:#fff}
+  ul{padding-right:24px}
+  li{margin-top:4px}
+  .quiz{margin-top:18px;border-top:1px dashed var(--line);padding-top:10px}
+  .quiz h3{font-size:19px;color:var(--gold);margin-bottom:2px}
+  .q{font-weight:700;margin-top:14px}
+  .opt{display:block;width:100%;text-align:right;background:var(--bg2);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:6px 16px;margin-top:8px;font-family:inherit;font-size:17px;line-height:1.9;cursor:pointer}
+  .opt:hover{border-color:var(--gold)}
+  .opt.good{border-color:#46b96a;background:rgba(70,185,106,.18)}
+  .opt.bad{border-color:#d05a4a;background:rgba(208,90,74,.15)}
+  .fb{font-weight:700}
+  .fb.ok{color:#7ed491}
+  .fb.no{color:#ff9a8a}
+  footer{text-align:center;color:var(--soft);font-size:15.5px;margin-top:36px}
+  footer a{color:var(--gold2);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+    <h1>بچوں کے لیے اسلامی معلومات</h1>
+    <p>آسان زبان میں دس چھوٹے اسباق۔ ہر سبق غور سے پڑھیں اور آخر میں دیے گئے ٹیسٹ کے سوالات کے جواب چن کر خود کو آزمائیں — صحیح جواب پر فوراً پتہ چل جائے گا۔</p>
+    <a class="backlink" href="resources.html">مفت وسائل ←</a>
+    <a class="backlink" href="index.html">مرکزی صفحہ ←</a>
+  </header>
+
+  <article class="day">
+    <h2>سبق 1: اللہ ہمارا خالق</h2>
+    <ul>
+      <li>اللہ ایک ہے، اس کا کوئی شریک نہیں۔</li>
+      <li>اللہ نے ہمیں اور ہر چیز کو بنایا — زمین، آسمان، چاند، سورج اور ستارے۔</li>
+      <li>اللہ سب کچھ دیکھتا ہے، سب کچھ سنتا ہے اور سب کچھ جانتا ہے۔</li>
+      <li>ہم صرف اللہ ہی کی عبادت کرتے ہیں اور صرف اسی سے مدد مانگتے ہیں۔</li>
+      <li>اللہ کی ہر نعمت پر «الحمد للہ» کہنا چاہیے۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: ہمیں اور ساری دنیا کو کس نے بنایا؟</p>
+        <button class="opt" onclick="ans(this,false)">ہم خود بن گئے</button>
+        <button class="opt" onclick="ans(this,true)">اللہ نے</button>
+        <button class="opt" onclick="ans(this,false)">کسی انسان نے</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: اللہ کتنے ہیں؟</p>
+        <button class="opt" onclick="ans(this,false)">دو</button>
+        <button class="opt" onclick="ans(this,false)">بہت سے</button>
+        <button class="opt" onclick="ans(this,true)">ایک</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: کھانا کھانے کے بعد کیا کہتے ہیں؟</p>
+        <button class="opt" onclick="ans(this,true)">الحمد للہ</button>
+        <button class="opt" onclick="ans(this,false)">بسم اللہ</button>
+        <button class="opt" onclick="ans(this,false)">اللہ اکبر</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 2: کلمہ اور اسلام کے پانچ ارکان</h2>
+    <ul>
+      <li>پہلا کلمہ طیبہ ہے:</li>
+    </ul>
+    <p class="arabic">لَا إِلَٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ</p>
+    <ul>
+      <li>اس کا مطلب ہے: اللہ کے سوا کوئی معبود نہیں، محمد ﷺ اللہ کے رسول ہیں۔</li>
+      <li>اسلام کے پانچ ارکان ہیں: کلمہ شہادت، نماز، زکاۃ، روزہ اور حج۔</li>
+      <li>نماز دن میں پانچ بار فرض ہے۔</li>
+      <li>روزے رمضان کے مہینے میں رکھے جاتے ہیں۔</li>
+      <li>زکاۃ مال کا ایک مقررہ حصہ غریبوں کو دینے کو کہتے ہیں۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: اسلام کے کتنے ارکان ہیں؟</p>
+        <button class="opt" onclick="ans(this,false)">تین</button>
+        <button class="opt" onclick="ans(this,true)">پانچ</button>
+        <button class="opt" onclick="ans(this,false)">سات</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: روزے کس مہینے میں رکھے جاتے ہیں؟</p>
+        <button class="opt" onclick="ans(this,false)">شوال</button>
+        <button class="opt" onclick="ans(this,false)">محرم</button>
+        <button class="opt" onclick="ans(this,true)">رمضان</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: غریبوں کو مال کا مقررہ حصہ دینا کیا کہلاتا ہے؟</p>
+        <button class="opt" onclick="ans(this,true)">زکاۃ</button>
+        <button class="opt" onclick="ans(this,false)">حج</button>
+        <button class="opt" onclick="ans(this,false)">روزہ</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 3: چھ کلمات</h2>
+    <ul>
+      <li>مسلمان بچے چھ کلمات یاد کرتے ہیں؛ ہر کلمہ ایمان کی ایک اہم بات سکھاتا ہے۔</li>
+      <li>پہلا کلمہ «طیبہ» — پاک کلمہ، ایمان کی بنیاد۔</li>
+      <li>دوسرا کلمہ «شہادت» — گواہی کا کلمہ۔</li>
+      <li>تیسرا کلمہ «تمجید» — اللہ کی تعریف اور بڑائی کا کلمہ۔</li>
+      <li>چوتھا کلمہ «توحید» — اللہ کے ایک ہونے کا بیان۔</li>
+      <li>پانچواں کلمہ «استغفار» — گناہوں کی معافی مانگنا۔</li>
+      <li>چھٹا کلمہ «ردِّ کفر» — کفر اور شرک سے بیزاری کا اظہار۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: کل کلمات کتنے ہیں؟</p>
+        <button class="opt" onclick="ans(this,false)">چار</button>
+        <button class="opt" onclick="ans(this,false)">پانچ</button>
+        <button class="opt" onclick="ans(this,true)">چھ</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: گناہوں کی معافی مانگنے والا کلمہ کون سا ہے؟</p>
+        <button class="opt" onclick="ans(this,true)">استغفار</button>
+        <button class="opt" onclick="ans(this,false)">تمجید</button>
+        <button class="opt" onclick="ans(this,false)">توحید</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: پہلا کلمہ کون سا ہے؟</p>
+        <button class="opt" onclick="ans(this,false)">شہادت</button>
+        <button class="opt" onclick="ans(this,true)">طیبہ</button>
+        <button class="opt" onclick="ans(this,false)">ردِّ کفر</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 4: ہمارے نبی محمد ﷺ</h2>
+    <ul>
+      <li>محمد ﷺ اللہ کے آخری نبی ہیں؛ آپ ﷺ کے بعد کوئی نبی نہیں آئے گا۔</li>
+      <li>آپ ﷺ مکہ مکرمہ میں پیدا ہوئے۔</li>
+      <li>آپ ﷺ ہمیشہ سچ بولتے تھے، اس لیے لوگ آپ کو «صادق» (سچا) اور «امین» (امانت دار) کہتے تھے۔</li>
+      <li>چالیس سال کی عمر میں آپ ﷺ پر پہلی وحی غارِ حرا میں نازل ہوئی۔</li>
+      <li>آپ ﷺ کا نام سن کر درود پڑھنا چاہیے: «صلی اللہ علیہ وسلم»۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: اللہ کے آخری نبی کون ہیں؟</p>
+        <button class="opt" onclick="ans(this,false)">حضرت عیسیٰ علیہ السلام</button>
+        <button class="opt" onclick="ans(this,true)">حضرت محمد ﷺ</button>
+        <button class="opt" onclick="ans(this,false)">حضرت موسیٰ علیہ السلام</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: آپ ﷺ کہاں پیدا ہوئے؟</p>
+        <button class="opt" onclick="ans(this,false)">مدینہ منورہ</button>
+        <button class="opt" onclick="ans(this,false)">طائف</button>
+        <button class="opt" onclick="ans(this,true)">مکہ مکرمہ</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: پہلی وحی کس غار میں آئی؟</p>
+        <button class="opt" onclick="ans(this,true)">غارِ حرا</button>
+        <button class="opt" onclick="ans(this,false)">غارِ ثور</button>
+        <button class="opt" onclick="ans(this,false)">غارِ کہف</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 5: قرآن مجید</h2>
+    <ul>
+      <li>قرآن مجید اللہ کی کتاب ہے جو حضرت جبریل علیہ السلام کے ذریعے ہمارے نبی ﷺ پر نازل ہوئی۔</li>
+      <li>قرآن میں 114 سورتیں اور 30 پارے ہیں۔</li>
+      <li>پہلی سورت «الفاتحہ» ہے اور آخری سورت «الناس» ہے۔</li>
+      <li>سب سے لمبی سورت «البقرہ» ہے۔</li>
+      <li>قرآن کو وضو کر کے، ادب کے ساتھ اور ٹھہر ٹھہر کر پڑھنا چاہیے۔</li>
+      <li>پورا قرآن یاد کرنے والے کو «حافظ» کہتے ہیں۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: قرآن مجید میں کتنی سورتیں ہیں؟</p>
+        <button class="opt" onclick="ans(this,false)">100</button>
+        <button class="opt" onclick="ans(this,true)">114</button>
+        <button class="opt" onclick="ans(this,false)">120</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: قرآن کی پہلی سورت کون سی ہے؟</p>
+        <button class="opt" onclick="ans(this,false)">البقرہ</button>
+        <button class="opt" onclick="ans(this,false)">الناس</button>
+        <button class="opt" onclick="ans(this,true)">الفاتحہ</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: پورا قرآن یاد کرنے والے کو کیا کہتے ہیں؟</p>
+        <button class="opt" onclick="ans(this,true)">حافظ</button>
+        <button class="opt" onclick="ans(this,false)">مؤذن</button>
+        <button class="opt" onclick="ans(this,false)">خطیب</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 6: پانچ نمازیں</h2>
+    <ul>
+      <li>ہر مسلمان پر دن میں پانچ نمازیں فرض ہیں: فجر، ظہر، عصر، مغرب اور عشاء۔</li>
+      <li>فجر کی نماز صبح سورج نکلنے سے پہلے پڑھی جاتی ہے۔</li>
+      <li>مغرب کی نماز سورج غروب ہوتے ہی پڑھی جاتی ہے۔</li>
+      <li>نماز اسلام کا دوسرا رکن ہے۔</li>
+      <li>بچوں کو سات سال کی عمر سے نماز کی عادت ڈالنی چاہیے۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: ایک دن میں کتنی نمازیں فرض ہیں؟</p>
+        <button class="opt" onclick="ans(this,false)">تین</button>
+        <button class="opt" onclick="ans(this,false)">چار</button>
+        <button class="opt" onclick="ans(this,true)">پانچ</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: سورج غروب ہوتے ہی کون سی نماز پڑھی جاتی ہے؟</p>
+        <button class="opt" onclick="ans(this,true)">مغرب</button>
+        <button class="opt" onclick="ans(this,false)">عصر</button>
+        <button class="opt" onclick="ans(this,false)">عشاء</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: دن کی سب سے پہلی نماز کون سی ہے؟</p>
+        <button class="opt" onclick="ans(this,false)">ظہر</button>
+        <button class="opt" onclick="ans(this,true)">فجر</button>
+        <button class="opt" onclick="ans(this,false)">عشاء</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 7: اذان و اقامت</h2>
+    <ul>
+      <li>اذان نماز کے وقت کی اطلاع ہے؛ اذان دینے والے کو «مؤذن» کہتے ہیں۔</li>
+      <li>اسلام کے پہلے مؤذن حضرت بلال رضی اللہ عنہ تھے۔</li>
+      <li>اذان سن کر خاموشی سے سننا چاہیے اور مؤذن کے کلمات دہرانے چاہییں۔</li>
+      <li>«حَیَّ عَلَی الصَّلٰوۃ» اور «حَیَّ عَلَی الْفَلَاح» کے جواب میں «لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰہ» کہتے ہیں۔</li>
+      <li>جماعت کھڑی ہونے سے پہلے «اقامت» کہی جاتی ہے۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: اذان دینے والے کو کیا کہتے ہیں؟</p>
+        <button class="opt" onclick="ans(this,false)">خطیب</button>
+        <button class="opt" onclick="ans(this,true)">مؤذن</button>
+        <button class="opt" onclick="ans(this,false)">حافظ</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: اسلام کے پہلے مؤذن کون تھے؟</p>
+        <button class="opt" onclick="ans(this,false)">حضرت عمر رضی اللہ عنہ</button>
+        <button class="opt" onclick="ans(this,false)">حضرت علی رضی اللہ عنہ</button>
+        <button class="opt" onclick="ans(this,true)">حضرت بلال رضی اللہ عنہ</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: جماعت کھڑی ہونے سے پہلے کیا کہا جاتا ہے؟</p>
+        <button class="opt" onclick="ans(this,true)">اقامت</button>
+        <button class="opt" onclick="ans(this,false)">خطبہ</button>
+        <button class="opt" onclick="ans(this,false)">دعا</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 8: صفائی</h2>
+    <ul>
+      <li>نبی ﷺ نے فرمایا: صفائی نصف ایمان ہے۔</li>
+      <li>کھانے سے پہلے اور کھانے کے بعد ہاتھ دھونے چاہییں۔</li>
+      <li>مسواک کرنا سنت ہے اور دانتوں کے لیے فائدہ مند ہے۔</li>
+      <li>ناخن، بال اور کپڑے صاف رکھنے چاہییں۔</li>
+      <li>جمعہ کے دن غسل کرنا اور صاف کپڑے پہننا سنت ہے۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: صفائی کس کا نصف ہے؟</p>
+        <button class="opt" onclick="ans(this,true)">ایمان کا</button>
+        <button class="opt" onclick="ans(this,false)">روزے کا</button>
+        <button class="opt" onclick="ans(this,false)">حج کا</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: کھانا کھانے سے پہلے کیا کرنا چاہیے؟</p>
+        <button class="opt" onclick="ans(this,false)">کھیلنا چاہیے</button>
+        <button class="opt" onclick="ans(this,true)">ہاتھ دھونے چاہییں</button>
+        <button class="opt" onclick="ans(this,false)">سو جانا چاہیے</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: مسواک کرنا کیا ہے؟</p>
+        <button class="opt" onclick="ans(this,false)">فرض</button>
+        <button class="opt" onclick="ans(this,false)">مکروہ</button>
+        <button class="opt" onclick="ans(this,true)">سنت</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 9: اچھے اخلاق</h2>
+    <ul>
+      <li>ہمیشہ سچ بولنا چاہیے اور جھوٹ سے بچنا چاہیے۔</li>
+      <li>والدین کی بات ماننی چاہیے اور ان سے نرمی سے بات کرنی چاہیے؛ انہیں «اف» تک نہ کہیں۔</li>
+      <li>کھانا دائیں ہاتھ سے کھائیں اور شروع میں «بسم اللہ» کہیں۔</li>
+      <li>کسی سے ملیں تو «السلام علیکم» کہیں۔</li>
+      <li>استاد صاحب کا ادب کریں، وقت پر حاضر ہوں اور سبق یاد کر کے آئیں۔</li>
+      <li>چھوٹوں سے شفقت اور بڑوں کا احترام کریں۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: کسی سے ملاقات ہو تو پہلے کیا کہنا چاہیے؟</p>
+        <button class="opt" onclick="ans(this,false)">خدا حافظ</button>
+        <button class="opt" onclick="ans(this,true)">السلام علیکم</button>
+        <button class="opt" onclick="ans(this,false)">شکریہ</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: کھانا کس ہاتھ سے کھانا چاہیے؟</p>
+        <button class="opt" onclick="ans(this,false)">بائیں ہاتھ سے</button>
+        <button class="opt" onclick="ans(this,false)">چمچ پکڑے بغیر</button>
+        <button class="opt" onclick="ans(this,true)">دائیں ہاتھ سے</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: والدین سے بات کیسے کرنی چاہیے؟</p>
+        <button class="opt" onclick="ans(this,true)">نرمی سے</button>
+        <button class="opt" onclick="ans(this,false)">اونچی آواز سے</button>
+        <button class="opt" onclick="ans(this,false)">بالکل نہیں کرنی چاہیے</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <article class="day">
+    <h2>سبق 10: اسلامی مہینے اور خاص دن</h2>
+    <ul>
+      <li>اسلامی سال میں بارہ مہینے ہیں؛ پہلا مہینہ «محرم» ہے۔</li>
+      <li>رمضان روزوں کا مہینہ ہے۔</li>
+      <li>عید الفطر شوال کی پہلی تاریخ کو ہوتی ہے۔</li>
+      <li>عید الاضحی ذوالحجہ کی دس تاریخ کو ہوتی ہے۔</li>
+      <li>جمعہ ہفتے کا سب سے افضل دن ہے۔</li>
+    </ul>
+    <div class="quiz">
+      <h3>ٹیسٹ</h3>
+      <div class="qq">
+        <p class="q">سوال 1: اسلامی سال کا پہلا مہینہ کون سا ہے؟</p>
+        <button class="opt" onclick="ans(this,false)">رمضان</button>
+        <button class="opt" onclick="ans(this,true)">محرم</button>
+        <button class="opt" onclick="ans(this,false)">شوال</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 2: روزوں کا مہینہ کون سا ہے؟</p>
+        <button class="opt" onclick="ans(this,false)">رجب</button>
+        <button class="opt" onclick="ans(this,false)">محرم</button>
+        <button class="opt" onclick="ans(this,true)">رمضان</button>
+        <p class="fb"></p>
+      </div>
+      <div class="qq">
+        <p class="q">سوال 3: عید الفطر کس مہینے کی پہلی تاریخ کو ہوتی ہے؟</p>
+        <button class="opt" onclick="ans(this,true)">شوال</button>
+        <button class="opt" onclick="ans(this,false)">ذوالحجہ</button>
+        <button class="opt" onclick="ans(this,false)">ربیع الاول</button>
+        <p class="fb"></p>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <p>گلوبل قرآن اکیڈمی — آن لائن قرآن کلاسز کے لیے: <a href="https://wa.me/923247920313">WhatsApp: 0324 7920313</a></p>
+  </footer>
+</div>
+<script>
+function ans(btn, ok){
+  var q = btn.parentElement;
+  var fb = q.querySelector('.fb');
+  if(ok){
+    btn.classList.add('good');
+    fb.textContent = '✓ درست جواب — شاباش!';
+    fb.className = 'fb ok';
+  } else {
+    btn.classList.add('bad');
+    fb.textContent = '✗ یہ جواب غلط ہے — دوبارہ کوشش کریں';
+    fb.className = 'fb no';
+  }
+}
+</script>
+</body>
+</html>
