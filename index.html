@@ -324,6 +324,9 @@
       .courses{display:grid;gap:18px}
       @media (min-width:700px){.courses{grid-template-columns:repeat(2,1fr)}}
       @media (min-width:1040px){.courses{grid-template-columns:repeat(3,1fr)}}
+      /* free resources grid: 2 columns on desktop, 1 on mobile */
+      .res-grid{display:grid;gap:18px}
+      @media (min-width:700px){.res-grid{grid-template-columns:repeat(2,1fr)}}
       .course{padding:28px 24px;position:relative;overflow:hidden}
       .course::before{content:"";position:absolute;top:0;inset-inline:24px;height:4px;border-radius:0 0 6px 6px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
       .course-ic{
@@ -921,6 +924,48 @@
       </div>
     </section>
 
+    <!-- ===== SECTION: FREE RESOURCES ===== -->
+    <section class="sec sec-cream" id="resources" style="padding-top:10px">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 data-i18n="resH">Free Resources — Learn on Your Own</h2>
+          <p data-i18n="resSub">All of these resources are completely free for everyone — including our registered students and teachers.</p>
+        </div>
+        <div class="res-grid">
+          <article class="course glass">
+            <h3 data-i18n="res1t">Noorani Qaida</h3>
+            <p data-i18n="res1p">From the alphabet to fluent reading — 14 lessons with tests.</p>
+            <div style="margin-top:16px"><a class="btn btn-gold" href="qaida.html" data-i18n="resBtn">Start now →</a></div>
+          </article>
+          <article class="course glass">
+            <h3 data-i18n="res2t">Qaida Jamiat Taleem-ul-Quran</h3>
+            <p data-i18n="res2p">The Trust's famous Qaida in its own board-by-board order — 14 lessons.</p>
+            <div style="margin-top:16px"><a class="btn btn-gold" href="jamiat-qaida.html" data-i18n="resBtn">Start now →</a></div>
+          </article>
+          <article class="course glass">
+            <h3 data-i18n="res3t">Daily Duas</h3>
+            <p data-i18n="res3p">30 masnoon duas in Arabic, with Urdu and English translations.</p>
+            <div style="margin-top:16px"><a class="btn btn-gold" href="duas.html" data-i18n="resBtn">Start now →</a></div>
+          </article>
+          <article class="course glass">
+            <h3 data-i18n="res4t">How to Make Wudu, Ghusl and Pray Salah</h3>
+            <p data-i18n="res4p">The complete step-by-step method — Hanafi.</p>
+            <div style="margin-top:16px"><a class="btn btn-gold" href="salah.html" data-i18n="resBtn">Start now →</a></div>
+          </article>
+          <article class="course glass">
+            <h3 data-i18n="res5t">Islamic Lessons for Kids</h3>
+            <p data-i18n="res5p">10 easy lessons plus a 30-question test.</p>
+            <div style="margin-top:16px"><a class="btn btn-gold" href="kids.html" data-i18n="resBtn">Start now →</a></div>
+          </article>
+          <article class="course glass">
+            <h3 data-i18n="res6t">Daily Quran, Hadith and Dua</h3>
+            <p data-i18n="res6p">A new portion every day, with Mufti Taqi Usmani's translation.</p>
+            <div style="margin-top:16px"><a class="btn btn-gold" href="daily.html" data-i18n="resBtn">Start now →</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== SECTION: REGISTRATION CTA ===== -->
     <section class="sec" style="padding-top:10px">
       <div class="wrap">
@@ -1112,6 +1157,15 @@
           regH: "Your first class is completely free — register now",
           regP: "Students and teachers both register here. Fill in the short form — your application reaches the academy directly, your first trial class is completely free, and all of this site's free resources are open to you.",
           regBtn2: "Register free now",
+          resH: "Free Resources — Learn on Your Own",
+          resSub: "All of these resources are completely free for everyone — including our registered students and teachers.",
+          res1t: "Noorani Qaida", res1p: "From the alphabet to fluent reading — 14 lessons with tests.",
+          res2t: "Qaida Jamiat Taleem-ul-Quran", res2p: "The Trust's famous Qaida in its own board-by-board order — 14 lessons.",
+          res3t: "Daily Duas", res3p: "30 masnoon duas in Arabic, with Urdu and English translations.",
+          res4t: "How to Make Wudu, Ghusl and Pray Salah", res4p: "The complete step-by-step method — Hanafi.",
+          res5t: "Islamic Lessons for Kids", res5p: "10 easy lessons plus a 30-question test.",
+          res6t: "Daily Quran, Hadith and Dua", res6p: "A new portion every day, with Mufti Taqi Usmani's translation.",
+          resBtn: "Start now →",
           fDesc: "Live 1-on-1 online Quran classes for children and adults, taught from Kot Addu, Pakistan — with Tajweed corrected in every lesson and a written progress report every month.",
           fLinksH: "Quick links", fTeacher: "About the teacher", fContactH: "Contact",
           fWa: "WhatsApp: 0324 7920313", fAddr: "Kot Addu, Punjab, Pakistan",
@@ -1249,6 +1303,15 @@
           regH: "پہلی کلاس بالکل مفت — ابھی رجسٹر ہوں",
           regP: "طالب علم ہوں یا استاد — مختصر رجسٹریشن فارم بھریں، آپ کی درخواست براہِ راست اکیڈمی تک پہنچ جائے گی۔ پہلی ٹرائل کلاس بالکل مفت ہے، اور اس ویب سائٹ کے تمام مفت وسائل رجسٹرڈ طلباء و اساتذہ کے لیے کھلے ہیں۔",
           regBtn2: "ابھی مفت رجسٹر ہوں",
+          resH: "مفت وسائل — خود سیکھیں",
+          resSub: "یہ تمام وسائل ہر ایک کے لیے بالکل مفت ہیں — رجسٹرڈ طلباء و اساتذہ سمیت سب کے لیے۔",
+          res1t: "نورانی قاعدہ", res1p: "حروفِ تہجی سے روانی تک، 14 اسباق و ٹیسٹ",
+          res2t: "قاعدہ جمعیت تعلیم القرآن", res2p: "ٹرسٹ کے مشہور قاعدے کی تختی ترتیب، 14 اسباق",
+          res3t: "روزمرہ دعائیں", res3p: "30 مسنون دعائیں، عربی + اردو و انگریزی ترجمہ",
+          res4t: "وضو، غسل اور نماز کا طریقہ", res4p: "مرحلہ وار مکمل طریقہ، حنفی",
+          res5t: "بچوں کے اسلامی اسباق", res5p: "10 آسان اسباق + 30 سوالات کا ٹیسٹ",
+          res6t: "روزانہ قرآن، حدیث و دعا", res6p: "روزانہ کی قسط، مفتی تقی عثمانی صاحب کے ترجمے کے ساتھ",
+          resBtn: "شروع کریں ←",
           fDesc: "بچوں اور بڑوں کے لیے براہِ راست انفرادی آن لائن قرآن کلاسز، کوٹ ادو، پاکستان سے پڑھائی جاتی ہیں — ہر سبق میں تجوید کی اصلاح اور ہر ماہ تحریری پروگریس رپورٹ کے ساتھ۔",
           fLinksH: "فوری لنکس", fTeacher: "استاد صاحب کا تعارف", fContactH: "رابطہ",
           fWa: "واٹس ایپ: 0324 7920313", fAddr: "کوٹ ادو، پنجاب، پاکستان",
@@ -1386,6 +1449,15 @@
           regH: "درسك الأول مجاني تمامًا — سجّل الآن",
           regP: "سواء كنت طالبًا أو معلّمًا يرغب في التدريس — املأ نموذج التسجيل القصير وسيصل طلبك إلى الأكاديمية مباشرة. درسك التجريبي الأول مجاني تمامًا، وجميع الموارد المجانية في هذا الموقع متاحة للطلاب والمعلّمين المسجّلين.",
           regBtn2: "سجّل الآن مجانًا",
+          resH: "موارد مجانية — تعلّم بنفسك",
+          resSub: "جميع هذه الموارد مجانية تمامًا للجميع — بما في ذلك طلابنا ومعلّمينا المسجّلين.",
+          res1t: "القاعدة النورانية", res1p: "من الحروف الهجائية إلى القراءة بطلاقة — 14 درسًا مع اختبارات",
+          res2t: "قاعدة جمعية تعليم القرآن", res2p: "قاعدة الترست الشهيرة بترتيب ألواحها — 14 درسًا",
+          res3t: "أدعية يومية", res3p: "30 دعاءً مأثورًا بالعربية، مع الترجمة الأردية والإنجليزية",
+          res4t: "كيفية الوضوء والغسل والصلاة", res4p: "الطريقة الكاملة خطوة بخطوة — على المذهب الحنفي",
+          res5t: "دروس إسلامية للأطفال", res5p: "10 دروس سهلة مع اختبار من 30 سؤالًا",
+          res6t: "قرآن وحديث ودعاء يوميًا", res6p: "ورد جديد كل يوم، مع ترجمة المفتي تقي العثماني",
+          resBtn: "ابدأ الآن ←",
           fDesc: "دروس قرآن مباشرة وفردية عبر الإنترنت للأطفال والكبار، تُدرَّس من كوت أدو، باكستان — مع تصحيح التجويد في كل درس وتقرير تقدّم مكتوب كل شهر.",
           fLinksH: "روابط سريعة", fTeacher: "عن المعلّم", fContactH: "تواصل معنا",
           fWa: "واتساب: 0324 7920313", fAddr: "كوت أدو، البنجاب، باكستان",
