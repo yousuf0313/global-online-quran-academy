@@ -239,7 +239,8 @@
       /* hero visual */
       .hero-visual{position:relative}
       .hv-frame{position:relative;border-radius:26px;padding:10px}
-      .hv-img{border-radius:18px;width:100%;aspect-ratio:4/3.4;object-fit:cover;object-position:center 28%}
+      .hv-img{border-radius:18px;width:100%;aspect-ratio:4/3;max-height:430px;object-fit:cover;object-position:center 28%}
+      @media (max-width:959px){.hv-img{max-height:300px}}
       .hv-chip{
         position:absolute;display:flex;align-items:center;gap:9px;padding:10px 15px;border-radius:14px;
         background:#0b3527;border:1px solid rgba(201,162,39,.45);
@@ -308,6 +309,8 @@
       @media (min-width:900px){.aud-sec{grid-template-columns:1fr 1fr}}
       .aud-photo{padding:10px;border-radius:26px}
       .aud-photo img{border-radius:18px;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 25%}
+      @media (min-width:900px){.aud-sec.no-photo{grid-template-columns:1fr}}
+      .aud-sec.no-photo .aud-copy{max-width:840px;margin:0 auto;width:100%}
       .aud-copy{padding:32px 28px}
       .aud-copy h2{font-size:clamp(25px,4.4vw,34px);color:#fff;margin-bottom:4px}
       .aud-copy .kick{font-family:var(--font-naskh);font-weight:600;color:var(--gold-2);font-size:18px;line-height:1.9;margin-bottom:10px}
@@ -692,7 +695,7 @@
     <!-- ===== SECTION: ADULTS ===== -->
     <section class="sec" style="padding-top:10px">
       <div class="wrap">
-        <div class="aud-sec">
+        <div class="aud-sec no-photo">
           <div class="aud-copy glass">
             <h2 data-i18n="adH">Quran classes for adults &amp; beginners</h2>
             <p class="kick" data-i18n="adKick">A calm space for adults and new learners</p>
@@ -703,9 +706,6 @@
               <li><span class="check-ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span data-i18n="a3"><b>Recitation corrected with respect</b><span>Tajweed fixed gently in every lesson, until reading the Quran feels natural and confident.</span></span></li>
             </ul>
             <a class="btn btn-gold" href="https://wa.me/923247920313?text=I%20want%20to%20book%20a%20free%20Quran%20level%20assessment%20for%20myself" target="_blank" rel="noopener" data-i18n="adBtn">Book your free assessment</a>
-          </div>
-          <div class="aud-photo glass">
-            <img src="quran-reading.jpg" alt="An adult man with prayer beads reading the Quran in a mosque" loading="lazy" decoding="async" width="600" height="900">
           </div>
         </div>
       </div>
